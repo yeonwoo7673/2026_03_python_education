@@ -44,7 +44,7 @@ class QuizGame:
             self.init_quizzes()
             self.save_state()
 
-    #JSON 파일에 현재 상태를 저장하는 메서드
+    # JSON 파일에 현재 상태를 저장하는 메서드
     def save_state(self):
         """현재 상태를 파일에 저장하기"""
         data = {
@@ -54,6 +54,7 @@ class QuizGame:
         with open(self.file_path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
+    # 사용자 정답 체크 로직
     def play_quiz(self):
         """퀴즈를 풀고 점수를 계산하는 메서드"""
         print(f"\n--- 퀴즈 시작! (현재 최고 점수: {self.high_score}) ---")
