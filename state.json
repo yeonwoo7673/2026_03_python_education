@@ -1,0 +1,25 @@
+{
+    "quizzes": [
+        {
+            "question": "파이썬에서 리스트에 요소를 추가하는 메서드는?",
+            "answer": "append"
+        },
+        {
+            "question": "파이썬의 창시자 이름은?",
+            "answer": "귀도 반 로섬"
+        },
+        {
+            "question": "JSON의 약자는 JavaScript Object 무엇일까요?",
+            "answer": "Notation"
+        },
+        {
+            "question": "파이썬에서 나머지를 구하는 연산자는?",
+            "answer": "%"
+        },
+        {
+            "question": "객체지향 프로그래밍의 약자는?",
+            "answer": "OOP"
+        }
+    ],
+    "high_score": 1
+}
