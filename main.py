@@ -44,6 +44,7 @@ class QuizGame:
             self.init_quizzes()
             self.save_state()
 
+    #JSON 파일에 현재 상태를 저장하는 메서드
     def save_state(self):
         """현재 상태를 파일에 저장하기"""
         data = {
