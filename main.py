@@ -37,7 +37,7 @@ class QuizGame:
                     self.quizzes = [Quiz(q['question'], q['answer']) for q in data['quizzes']]
                     self.high_score = data.get('high_score', 0)
                 print("데이터를 성공적으로 불러왔습니다.")
-            except (json.JSONDecodeError, KeyError):
+            except (json.JSONDecodeError, KeyError): # 파일 오류 방지
                 print("파일 형식이 잘못되어 초기 데이터를 사용합니다.")
                 self.init_quizzes()
         else:
