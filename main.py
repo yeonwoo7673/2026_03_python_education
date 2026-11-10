@@ -108,7 +108,8 @@ class QuizGame:
 # 메인 실행 로직
 if __name__ == "__main__":
     game = QuizGame()
-    
+
+    # 메인 루프 시작
     while True:
         print("\n" + "="*20)
         print("[ 퀴즈 게임 메뉴 ]")
