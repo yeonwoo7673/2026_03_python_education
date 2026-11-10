@@ -82,6 +82,7 @@ class QuizGame:
             self.high_score = score
             self.save_state()
 
+    # 새로운 문제 추가 로직
     def add_quiz(self):
         """새로운 퀴즈 추가"""
         question = input("새로운 질문을 입력하세요: ").strip()
